@@ -13,9 +13,7 @@ const Layout = ({ title, className, children }: LayoutProps) => {
     <>
       <NextSeo title={title} />
       <Header />
-      <main className={clsx("container flex flex-col", className)}>
-        {children}
-      </main>
+      <main className={clsx("flex flex-col", className)}>{children}</main>
     </>
   );
 };
