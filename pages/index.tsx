@@ -16,8 +16,8 @@ const Home: NextPage<{
           Develop your next big web app, fast.
         </h1>
         <p className="text-lg mt-4 text-gray-700">
-          Batteries-included, performant, non-repetitive, style-friendly,
-          Next.js template.
+          Batteries-included, performant, non-repetitive, configurable,
+          style-friendly, Next.js template.
         </p>
       </div>
       <Readme readme={readme} />
