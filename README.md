@@ -7,7 +7,7 @@ raph's opinionated batteries-included Next.js starter template.
 - TypeScript
 - Linting (eslint + prettier config)
 - Prisma
-- PWA-ready
+- PWA-ready (Disabled by default)
 - SEO optimization
 - TailwindCSS
 - Database setup with Prisma + API server
@@ -72,3 +72,7 @@ Pull the latest version of this repository into your project like so:
 ```shell
 git pull https://github.com/raphtlw/next-starter.git
 ```
+
+## PWA support
+
+PWA support is provided via [next-pwa](https://www.npmjs.com/package/next-pwa). You can enable it by flipping the `PWA_ENABLED` variable in the `.env.local` file to `true`.

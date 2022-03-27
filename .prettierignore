@@ -1,0 +1,4 @@
+.next
+**/*.md
+/public/sw.js*
+/public/workbox-*.js*

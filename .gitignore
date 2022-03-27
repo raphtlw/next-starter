@@ -1,6 +1,7 @@
 # -- Project specific --
 
-
+/public/sw.js*
+/public/workbox-*.js*
 
 # -- Next.js --
 
