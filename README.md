@@ -1,13 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# next-starter
+
+raph's opinionated batteries-included Next.js starter template.
+
+**What's in the box?**
+- Next.js
+- TypeScript
+- Linting (eslint + prettier config)
+- Prisma
+- PWA-ready
+- SEO optimization
+- TailwindCSS
+- Database setup with Prisma + API server
 
 ## Getting Started
 
-First, run the development server:
+Initialize a new git repository on your machine:
 
-```bash
+```shell
+git init my-app
+cd my-app
+```
+
+Pull this template into the new project:
+
+```shell
+git pull https://github.com/raphtlw/next-starter.git
+```
+
+Install dependencies:
+
+```shell
+npm i
+```
+
+Copy `.env.example` to `.env.local` and `prisma/.env.example` to `prisma/.env`, open them and change the default values to the appropriate values for your project.
+
+```shell
+cp .env.example .env.local
+cp prisma/.env.example prisma/.env
+```
+
+Run development server:
+
+```shell
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -18,17 +54,19 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Folder Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `pages` &mdash; Next.js pages
+- `components` &mdash; Components that are re-used across the project.
+- `layouts` &mdash; Layout components that are used across the project, see `pages/index.tsx` for an example on how they are used.
+- `styles` &mdash; Global styles that are used across the project, no CSS modules are to be stored there.
+- `public` &mdash; Everything that is placed in the / of the website after building.
+- `lib` &mdash; Utilities, types, interfaces, temporary mock data, etc.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How to pull the latest changes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Pull the latest version of this repository into your project like so:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```shell
+git pull https://github.com/raphtlw/next-starter.git
+```
