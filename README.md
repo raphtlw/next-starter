@@ -12,6 +12,8 @@ raph's opinionated batteries-included Next.js starter template.
 - TailwindCSS
 - Database setup with Prisma + API server
 
+![Preview screenshot](.github/images/preview.png)
+
 ## Getting Started
 
 Initialize a new git repository on your machine:
