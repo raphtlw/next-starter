@@ -26,7 +26,7 @@ cd my-app
 Pull this template into the new project:
 
 ```shell
-git pull https://github.com/raphtlw/next-starter.git
+git pull https://github.com/raphtlw/next-starter.git --depth 1
 ```
 
 Install dependencies:
