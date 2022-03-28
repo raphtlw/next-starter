@@ -21,7 +21,7 @@ Either click on the "Use this template" button on GitHub, or
 Download this template and initialize a new repository:
 
 ```shell
-git clone https://github.com/raphtlw/next-starter.git my-app
+git clone https://github.com/raphtlw/next-starter.git --depth=1 my-app
 cd my-app
 rm -rf .git
 git init
