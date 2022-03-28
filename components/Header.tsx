@@ -11,7 +11,7 @@ const Header = () => {
         "py-4"
       )}
     >
-      <p>Header</p>
+      <p>{process.env.NEXT_PUBLIC_SITE_NAME ?? "next-starter"}</p>
     </header>
   );
 };
