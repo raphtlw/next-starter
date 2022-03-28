@@ -16,17 +16,15 @@ raph's opinionated batteries-included Next.js starter template.
 
 ## Getting Started
 
-Initialize a new git repository on your machine:
+Either click on the "Use this template" button on GitHub, or
+
+Download this template and initialize a new repository:
 
 ```shell
-git init my-app
+git clone https://github.com/raphtlw/next-starter.git my-app
 cd my-app
-```
-
-Pull this template into the new project:
-
-```shell
-git pull https://github.com/raphtlw/next-starter.git --depth 1
+rm -rf .git
+git init
 ```
 
 Install dependencies:
